@@ -12,6 +12,9 @@ namespace Exercicio_IMC
             Console.WriteLine("Insira sua altura: ");
             float altura = (float)Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine("Insira sua idade: ");
+            float idade = (float)Convert.ToDouble(Console.ReadLine());
+
             float resultado = peso / (altura * altura);
 
             Console.WriteLine("Seu IMC é " + resultado);
